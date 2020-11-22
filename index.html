@@ -102,7 +102,7 @@
         </div>
         <br>
         <div class="card-container" id="consolas">
-            <div class="card" style="width: 20rem;" data-toggle="modal" data-target="#myModal">
+            <div class="card" style="width: 20rem;" data-toggle="modal">
                 <img src="images/consolas.jfif" alt="Consolas">
                 <div class="card-body">
                     <h5 class="card-title tituloTarjeta"><a href="#">Guerra de Consolas mas encendida que nunca</a></h5>
@@ -110,7 +110,7 @@
                 </div>
             </div>
 
-            <div class="card" style="width: 20rem;" data-toggle="modal" data-target="#mySecondModal">
+            <div class="card" style="width: 20rem;" data-toggle="modal">
                 <img src="images/ps5.jpg" alt="Exclusivos PS5">
                 <div class="card-body">
                     <h5 class="card-title tituloTarjeta"><a href="#">Los Nuevos Exclusivos PS5</a></h5>
@@ -118,7 +118,7 @@
                 </div>
             </div>
 
-            <div class="card" style="width: 20rem;" data-toggle="modal" data-target="#myThirdModal">
+            <div class="card" style="width: 20rem;" data-toggle="modal">
                 <img src="images/amongus.jfif" alt="Among Us prox en PS4 y XBOX">
                 <div class="card-body">
                     <h5 class="card-title tituloTarjeta"><a href="#" a>Among Us preparando su llegada a consolas</a></h5>
@@ -231,47 +231,48 @@
     <hr>
     <br>
     <section id="contacto">
-        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseForm" aria-expanded="false" aria-controls="collapseForm">
-            Contactanos!
-        </button>
-        <hr>
-        <div class="collapse" id="collapseForm">
-            <div class="container form col-md-2" id="contacto">
-                <form class="contacto" action="" method="POST">
-                    <div class="form-group">
-                        <label class="sr-only" for="Nombre">Nombre</label>
-                        <input type="text" name="Nombre" class="form-control" placeholder="Nombre">
-                    </div>
-                    <div class="form-group">
-                        <label class="sr-only" for="">Mail</label>
-                        <div class="input-group mb-2">
-                            <div class="input-group-prepend">
-                                <div class="input-group-text">@</div>
-                            </div>
-
-                            <input type="text" name="Mail" class="form-control" placeholder="Mail">
+        <div class="container contacto">
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseForm" aria-expanded="false" aria-controls="collapseForm">
+                    Contactanos!
+            </button>
+            <hr>
+            <div class="collapse" id="collapseForm">
+                <div class="container form" id="contacto">
+                    <form class="contacto" action="" method="POST">
+                        <div class="form-group">
+                            <label class="sr-only" for="Nombre">Nombre</label>
+                            <input type="text" name="Nombre" class="form-control" placeholder="Nombre">
                         </div>
-                    </div>
-                    <div class="form-group col-md-4">
-                        <select name="Reclamo" class="form-control"><!--COMBO BOX-->
+                        <div class="form-group">
+                            <label class="sr-only" for="">Mail</label>
+                            <div class="input-group mb-2">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">@</div>
+                                </div>
+
+                                <input type="text" name="Mail" class="form-control" placeholder="Mail">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <select name="Reclamo" class="form-control"><!--COMBO BOX-->
                             <option value="P">Tuve un problema con un producto</option>
                             <option value="D">Tienen un dato equivocado</option>
                             <option value="O">Otro</option>
                         </select>
-                    </div><br>
-
-                    <textarea name="textbox" placeholder="Escríbenos algo!" style="height:170px"></textarea> <br>
-                    <label for="SiNo">Desea suscribirse al newsletter?</label>
-                    <input type="Radio" name="SiNo"><br>
-                    <div class="form-row">
-                        <input type="submit" value="Enviar">
-                        <input type="submit" value="Borrar todo">
-                    </div>
-
+                        </div>
+                        <textarea name="textbox" placeholder="Escríbenos algo!" style="height:170px"></textarea> <br>
+                        <label for="SiNo">Desea suscribirse al newsletter?</label>
+                        <input type="Radio" name="SiNo"><br>
+                        <div class="form-row">
+                            <input type="submit" value="Enviar">
+                            <input type="submit" value="Borrar todo">
+                        </div>
 
 
 
-                </form>
+
+                    </form>
+                </div>
             </div>
         </div>
     </section>
