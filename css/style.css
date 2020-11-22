@@ -79,14 +79,14 @@ body {
 .card:hover {
   transform: scale(1.15);
   box-shadow: 0 8px 16px 0 #5564eb;
-  transition: all 0.5s ease 1s;
-  -webkit-transition: all 0.5s ease 1s;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
   /*Para Chrome y Safari*/
-  -moz-transition: all 0.5s ease 1s;
+  -moz-transition: all 0.5s ease-in-out;
   /*Mozilla*/
-  -o-transition: all 0.5s ease 1s;
+  -o-transition: all 0.5s ease-in-out;
   /*Opera*/
-  -ms-transition: all 0.5s ease 1s;
+  -ms-transition: all 0.5s ease-in-out;
   /*Internet Explorer*/
 }
 
@@ -118,14 +118,14 @@ body {
 .titulosmall:hover {
   transform: scale(1.15);
   box-shadow: 0 8px 16px 0 #5564eb;
-  transition: all 0.5s ease 1s;
-  -webkit-transition: all 0.5s ease 1s;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
   /*Para Chrome y Safari*/
-  -moz-transition: all 0.5s ease 1s;
+  -moz-transition: all 0.5s ease-in-out;
   /*Mozilla*/
-  -o-transition: all 0.5s ease 1s;
+  -o-transition: all 0.5s ease-in-out;
   /*Opera*/
-  -ms-transition: all 0.5s ease 1s;
+  -ms-transition: all 0.5s ease-in-out;
   /*Internet Explorer*/
 }
 
@@ -155,7 +155,7 @@ body {
 
 .botonesForm {
   display: flex;
-  align-items: stretch;
+  justify-content: space-between;
 }
 
 @media only screen and (max-width: 900px) {

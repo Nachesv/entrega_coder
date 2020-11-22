@@ -133,7 +133,7 @@ body {
 
 .botonesForm {
     display: flex;
-    align-items: stretch;
+    justify-content: space-between;
 }
 
 @media only screen and (max-width: 900px) {
