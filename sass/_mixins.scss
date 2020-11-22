@@ -39,20 +39,20 @@
     .card {
         margin: 10px;
     }
-    .card:active {
-        transform: scale(1.15);
-        box-shadow: 0 8px 16px 0 #5564eb;
-        transition-delay: 00.5s;
-        transition: all 0.5s ease 1s;
-        -webkit-transition: all 0.5s ease 1s;
-        /*Para Chrome y Safari*/
-        -moz-transition: all 0.5s ease 1s;
-        /*Mozilla*/
-        -o-transition: all 0.5s ease 1s;
-        /*Opera*/
-        -ms-transition: all 0.5s ease 1s;
-        /*Internet Explorer*/
-    }
+    // .card:active {
+    //     transform: scale(1.15);
+    //     box-shadow: 0 8px 16px 0 #5564eb;
+    //     transition-delay: 00.5s;
+    //     transition: all 0.5s ease 1s;
+    //     -webkit-transition: all 0.5s ease 1s;
+    //     /*Para Chrome y Safari*/
+    //     -moz-transition: all 0.5s ease 1s;
+    //     /*Mozilla*/
+    //     -o-transition: all 0.5s ease 1s;
+    //     /*Opera*/
+    //     -ms-transition: all 0.5s ease 1s;
+    //     /*Internet Explorer*/
+    // }
     .footer {
         display: none;
     }
