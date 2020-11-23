@@ -158,6 +158,11 @@ body {
   justify-content: space-between;
 }
 
+.tituloIndex {
+  font-family: "Stalinist One", cursive;
+  padding-left: 20px;
+}
+
 @media only screen and (max-width: 900px) {
   .titulo img {
     width: 80px;
